@@ -40,11 +40,17 @@ namespace ConsoleApplication1
 
 
             if (searchType == "2")
+            {
                 searchType = "4";
+            }
             else if (searchType == "3")
+            {
                 searchType = "5";
+            }
             else if (searchType == "4")
+            {
                 searchType = "13";
+            }
 
             var allTypes = new List<string>() { "1", "4", "5", "13" };
             if (!allTypes.Contains(searchType))
